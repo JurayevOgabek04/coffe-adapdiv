@@ -31,7 +31,12 @@
     border-radius: 10px;
 }
 
-.site-about__text{
+.about{
+    width: 450px;
+}
+
+
+.about__text{
     font-family: Fraunces 9pt;
     font-style: normal;
     font-weight: 900;
@@ -43,7 +48,7 @@
 
 }
 
-.site-about >p{
+.about__description{
     font-family: Barlow;
     font-style: normal;
     font-weight: normal;
@@ -51,17 +56,22 @@
     line-height: 26px;
     color: #FEFCF7;
 
-    width: 450px;
+    
 }
 
-.site-about__text {
+.about{
     padding-left: 90px;
     padding-top: 120px;
 }
 
-.site-about > p{
-    padding-left: 90px;
-}
+// .about__text {
+//     padding-left: 90px;
+//     padding-top: 120px;
+// }
+
+// .about__description{
+//     padding-left: 90px;
+// }
 
 .site-header__hamburg-btn{
     background-color: transparent;
@@ -70,7 +80,7 @@
 }
 
 
-@media only screen and (max-width: 980px){
+@media only screen and (max-width: 680px){
     .site-header__hamburg-btn{
         display: block;
 
@@ -79,4 +89,54 @@
     .nav{
         display: none;
     }
+
+    .about{
+        text-align: center;
+        padding-left: 30px;
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .about{
+        margin-top: 10px;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 100px;
+       
+
+    }
+}
+
+@media only screen and (max-width:426px){
+    .about{
+        margin-top: 10px;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 100px;
+       
+
+    }
+}
+
+@media only screen and (max-width:376px){
+    .about{
+        margin-top: 10px;
+        width: 100%;
+        padding-top: 70px;
+        padding-left: 0;
+
+    }
+    
+}
+
+@media only screen and (max-width: 321px){
+    .about{
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 0;
+        padding-top: 80px;
+
+    }
+
 }
